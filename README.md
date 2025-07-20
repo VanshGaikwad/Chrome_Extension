@@ -30,5 +30,5 @@ instant-word-meaning-extension/
 ├── popup.css             → Styles for popup
 ├── icon.png              → Extension icon
 
-📸 Screenshots
+##📸 Screenshots
 <img width="946" height="478" alt="image" src="https://github.com/user-attachments/assets/9269d761-d323-4716-89a4-1f33f742e51d" />
