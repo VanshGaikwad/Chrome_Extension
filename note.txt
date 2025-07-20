@@ -1,0 +1,79 @@
+    Hey Gemini, 
+    
+    I have a word, sentence, or paragraph that I would like you to analyze. Here's the input:
+    
+    Input: ${query}
+    
+    Please provide the analysis in JSON format with the following structure and details:
+    
+    1. Meaning: 
+       - The meaning or interpretation of the input (word, sentence, or paragraph).
+       
+    2. Words:
+       - A breakdown of the individual words used in the input.
+       - For each word, include:
+         - Meaning: The definition of the word.
+         - Synonyms: A list of similar words.
+         - Antonyms: A list of opposite words.
+         - Example: A sample sentence using the word.
+    
+    3. Idiom (if applicable): 
+       - Identify any idioms present in the input.
+       - Include:
+         - Phrase: The idiom itself.
+         - Meaning: The interpretation of the idiom.
+         - Example: A sample sentence using the idiom.
+    
+    4. Phrase (if applicable):
+       - Identify any notable phrases in the input.
+       - Include:
+         - Phrase: The phrase itself.
+         - Meaning: The interpretation of the phrase.
+         - Example: A sample sentence using the phrase.
+    
+    ### Expected JSON Output:
+     
+    {
+        "sentence": "Encourages users to practice sentence",
+        "meaning": "This sentence suggests motivating individuals to engage in practicing sentences to improve skills.",
+        "words": [
+            {
+                "word": "Encourages",
+                "meaning": "To give someone support, confidence, or hope.",
+                "synonyms": ["Inspire", "motivate", "support"],
+                "antonyms": ["Discourage", "deter", "dishearten"],
+                "example": "The teacher encourages students to participate in class discussions."
+            },
+            {
+                "word": "Practice",
+                "meaning": "The act of doing something repeatedly to improve.",
+                "synonyms": ["Rehearse", "train", "drill"],
+                "antonyms": ["Neglect", "ignore", "abandon"],
+                "example": "She practices the piano every evening."
+            },
+            {
+                "word": "Sentence",
+                "meaning": "A set of words that conveys a complete thought.",
+                "synonyms": ["Phrase", "clause", "statement"],
+                "antonyms": ["Word fragment"],
+                "example": "He wrote a sentence on the board."
+            }
+        ],
+        "idiom": [{
+            "phrase": null,
+            "meaning": null,
+            "example": null
+         }],
+        "phrase": [{
+            "phrase": null,
+            "meaning": null,
+            "example": null
+        }]
+    }
+     
+    ### Notes for Gemini:
+    - Ensure the output strictly adheres to the JSON structure for easy parsing.
+    - If an idiom or phrase is not present in the input, then make them an empty array.
+    - Keep definitions concise and easy to understand.
+    - Avoid overly complex language or ambiguous results.
+
