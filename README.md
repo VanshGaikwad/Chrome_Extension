@@ -22,5 +22,5 @@ A lightweight and powerful Chrome extension that shows instant meanings for sele
 
 ---
 
-##📸 Screenshots
+## 📷 ScreenShots
 <img width="946" height="478" alt="image" src="https://github.com/user-attachments/assets/9269d761-d323-4716-89a4-1f33f742e51d" />
