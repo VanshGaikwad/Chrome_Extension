@@ -21,14 +21,6 @@ A lightweight and powerful Chrome extension that shows instant meanings for sele
 - Gemini API
 
 ---
-##📁 File Structure
-instant-word-meaning-extension/
-├── manifest.json         → Chrome extension manifest
-├── content.js            → Captures selected text
-├── background.js         → Calls Gemini API
-├── popup.html            → Displays meaning
-├── popup.css             → Styles for popup
-├── icon.png              → Extension icon
 
 ##📸 Screenshots
 <img width="946" height="478" alt="image" src="https://github.com/user-attachments/assets/9269d761-d323-4716-89a4-1f33f742e51d" />
